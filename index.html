@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet"> 
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+
+<div class="wrapper">
+  <h1 class="product-description__title">Заголовок H1</h1>
+  <div class="slider__container">
+    <span id="slider__right-button" class="slider__button">
+      <span id="right-arrow" class="arrow"></span>
+    </span>
+    <span id="slider__left-button" class="slider__button">
+      <span id="left-arrow" class="arrow"></span>
+    </span>
+    <input checked type="radio" name="slider__radio" id="slider__radio-1">
+    <input type="radio" name="slider__radio" id="slider__radio-2">
+    <input type="radio" name="slider__radio" id="slider__radio-3">
+    <input type="radio" name="slider__radio" id="slider__radio-4">
+    <input type="radio" name="slider__radio" id="slider__radio-5">
+    <div class="slider__main-slides">
+      <label class="slider__main-slide" for="modal-slider__radio-1">
+        <img src="img/img1.jpg" alt="">
+      </label>
+      <label class="slider__main-slide" for="modal-slider__radio-2">
+        <img src="img/img2.jpg" alt="">
+      </label>
+      <label class="slider__main-slide" for="modal-slider__radio-3">
+        <img src="img/img3.jpg" alt="">
+      </label>
+      <label class="slider__main-slide" for="modal-slider__radio-4">
+        <img src="img/img4.jpg" alt="">
+      </label>
+      <label class="slider__main-slide" for="modal-slider__radio-5">
+        <img src="img/img5.jpg" alt="">
+      </label>
+    </div>
+
+    <div class="slider__miniatures">
+      <label class="slider__miniature-slide" for="slider__radio-1"><img src="img/img1.jpg" alt=""></label>
+      <label class="slider__miniature-slide" for="slider__radio-2"><img src="img/img2.jpg" alt=""></label>
+      <label class="slider__miniature-slide" for="slider__radio-3"><img src="img/img3.jpg" alt=""></label>
+      <label class="slider__miniature-slide" for="slider__radio-4"><img src="img/img4.jpg" alt=""></label>
+      <label class="slider__miniature-slide" for="slider__radio-5"><img src="img/img5.jpg" alt=""></label>
+    </div>
+  </div> <!--slider-container-->
+
+  <input type="radio" name="modal-slider__radio" id="modal-slider__radio-1">
+  <input type="radio" name="modal-slider__radio" id="modal-slider__radio-2">
+  <input type="radio" name="modal-slider__radio" id="modal-slider__radio-3">
+  <input type="radio" name="modal-slider__radio" id="modal-slider__radio-4">
+  <input type="radio" name="modal-slider__radio" id="modal-slider__radio-5">
+  <span id="modal-slider__background"></span>
+  <div class="modal-slider">
+    <div class="modal-slider__img" style="background: url(img/img1.jpg) no-repeat center / cover;">
+      <label class="modal-slider__label" for="modal-slider__radio-5"></label>
+      <label class="modal-slider__label" for="modal-slider__radio-2"></label>
+    </div>
+    <div class="modal-slider__img" style="background: url(img/img2.jpg) no-repeat center / cover;">
+      <label class="modal-slider__label" for="modal-slider__radio-1"></label>
+      <label class="modal-slider__label" for="modal-slider__radio-3"></label>
+    </div>
+    <div class="modal-slider__img" style="background: url(img/img3.jpg) no-repeat center / cover;">
+      <label class="modal-slider__label" for="modal-slider__radio-2"></label>
+      <label class="modal-slider__label" for="modal-slider__radio-4"></label>
+    </div>
+    <div class="modal-slider__img" style="background: url(img/img4.jpg) no-repeat center / cover;">
+      <label class="modal-slider__label" for="modal-slider__radio-3"></label>
+      <label class="modal-slider__label" for="modal-slider__radio-5"></label>
+    </div>
+    <div class="modal-slider__img" style="background: url(img/img5.jpg) no-repeat center / cover;">
+      <label class="modal-slider__label" for="modal-slider__radio-4"></label>
+      <label class="modal-slider__label" for="modal-slider__radio-1"></label>
+    </div>
+  </div> <!--modal-slider-->
+
+  <div class="product-description">
+    <h1 class="product-description__title">Заголовок H1</h1>
+    <p>Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке существенных финансовых и административных условий. Равным образом реализация намеченных плановых заданий требуют от нас анализа дальнейших направлений развития. Повседневная практика показывает...</p>
+    <div class="price_and_shopping-cart-button">
+      <span class="product-description__price">1000 ₽</span>
+      <a href="#" class="shopping-cart-button">В Корзину</a>
+    </div>
+  </div>
+</div> <!--wrapper-->
+
+
+<script src="main.js"></script>
+</body>
+</html>
