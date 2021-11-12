@@ -318,5 +318,6 @@ input[name="modal-slider__radio"]:checked ~ .modal-slider {
   }
   .modal-slider {
     width: 100vw;
+    height: 500px;
   }
 }
