@@ -284,6 +284,9 @@ input[name="modal-slider__radio"]:checked ~ .modal-slider {
   }
   .wrapper > .product-description__title {
     display: inline;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
   }
   .product-description {
     row-gap: 20px;
